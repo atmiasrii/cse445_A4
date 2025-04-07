@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Schema for hotels data - defines structure for my XML -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns="http://atmiasrii.github.io/cse445_A4"
            targetNamespace="http://atmiasrii.github.io/cse445_A4"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 
+  <!-- Root element that will contain all hotels -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
+        <!-- Can have many hotels -->
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
+              <!-- Basic hotel info -->
               <xs:element name="Name" type="xs:string"/>
+              <!-- Multiple phone numbers allowed -->
               <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+              <!-- Address has its own structure -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
+                    <!-- Address fields in order -->
                     <xs:element name="Number" type="xs:string"/>
                     <xs:element name="Street" type="xs:string"/>
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:string"/>
                   </xs:sequence>
+                  <!-- Airport is optional -->
                   <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
+            <!-- Every hotel needs a rating -->
             <xs:attribute name="Rating" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>

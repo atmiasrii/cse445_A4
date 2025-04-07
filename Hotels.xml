@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- My hotels database for assignment -->
 <Hotels xmlns="http://atmiasrii.github.io/cse445_A4"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://atmiasrii.github.io/cse445_A4 https://atmiasrii.github.io/cse445_A4/Hotels.xsd">
+  <!-- Westin hotel details -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -15,6 +17,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hilton with single phone number -->
   <Hotel Rating="4.5">
     <Name>Hilton Garden Inn</Name>
     <Phone>602-555-1234</Phone>
@@ -27,6 +30,7 @@
     </Address>
   </Hotel>
 
+  <!-- Hyatt with two phone numbers -->
   <Hotel Rating="3.8">
     <Name>Hyatt Place</Name>
     <Phone>480-777-2222</Phone>
@@ -40,6 +44,7 @@
     </Address>
   </Hotel>
 
+  <!-- Downtown Marriott -->
   <Hotel Rating="4.0">
     <Name>Marriott Downtown</Name>
     <Phone>602-333-0000</Phone>
@@ -52,6 +57,7 @@
     </Address>
   </Hotel>
 
+  <!-- Tempe extended stay -->
   <Hotel Rating="4.1">
     <Name>Residence Inn</Name>
     <Phone>480-999-1111</Phone>
@@ -64,6 +70,7 @@
     </Address>
   </Hotel>
 
+  <!-- Budget option with two contacts -->
   <Hotel Rating="3.9">
     <Name>Holiday Inn Express</Name>
     <Phone>480-123-4567</Phone>
@@ -77,6 +84,7 @@
     </Address>
   </Hotel>
 
+  <!-- Modern hotel near ASU -->
   <Hotel Rating="4.3">
     <Name>Aloft Tempe</Name>
     <Phone>602-456-7890</Phone>
@@ -89,6 +97,7 @@
     </Address>
   </Hotel>
 
+  <!-- Luxury resort option -->
   <Hotel Rating="4.0">
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
@@ -101,6 +110,7 @@
     </Address>
   </Hotel>
 
+  <!-- Boutique hotel option -->
   <Hotel Rating="4.6">
     <Name>Canopy by Hilton</Name>
     <Phone>602-234-5678</Phone>
@@ -113,6 +123,7 @@
     </Address>
   </Hotel>
 
+  <!-- Retro style hotel -->
   <Hotel Rating="4.0">
     <Name>Hotel Valley Ho</Name>
     <Phone>480-248-2000</Phone>
