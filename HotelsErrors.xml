@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ERROR #1: Root element is <Hotel> instead of <Hotels> -->
-<Hotel>
+<Hotels>
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -15,7 +15,7 @@
   </Hotel>
 
   <!-- ERROR #2: Missing required attribute "Rating" -->
-  <Hotel>
+  <Hotel Rating="4.0">
     <Name>Hilton Garden Inn</Name>
     <Phone>602-555-1234</Phone>
     <Address>
@@ -48,13 +48,13 @@
       <Street>N 1st St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <!-- Missing </Address> and <Zip> -->
+      <Zip>85004</Zip>
+    </Address>
   </Hotel>
 
   <!-- ERROR #5: Two <Name> elements in one <Hotel> -->
   <Hotel Rating="4.1">
     <Name>Residence Inn</Name>
-    <Name>Wrong Duplicate Name</Name>
     <Phone>480-999-1111</Phone>
     <Address>
       <Number>500</Number>
@@ -64,4 +64,4 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
-</Hotel>
+</Hotels>
