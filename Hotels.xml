@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
+<Hotels xmlns="http://atmiasrii.github.io/cse445_A4"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://atmiasrii.github.io/cse445_A4 https://atmiasrii.github.io/cse445_A4/Hotels.xsd">
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -106,8 +108,7 @@
       <Number>7142</Number>
       <Street>E 1st St</Street>
       <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85251</Zip>
+      <State>AZ</      <Zip>85251</Zip>
     </Address>
   </Hotel>
 
