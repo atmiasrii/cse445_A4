@@ -108,7 +108,8 @@
       <Number>7142</Number>
       <Street>E 1st St</Street>
       <City>Scottsdale</City>
-      <State>AZ</      <Zip>85251</Zip>
+      <State>AZ</State>
+      <Zip>85251</Zip>
     </Address>
   </Hotel>
 
